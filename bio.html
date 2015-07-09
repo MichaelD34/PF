@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dubberkes Designs">
+<title>| Bio |</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+   $(document).ready(function () {
+        $('span.nav-btn').click(function () {
+                $('#nav ul li').toggle();
+            });
+                
+            $(window).resize(function () {
+                if ( $(window).width() > 760 ) {
+                    $('#nav ul li').removeAttr('style');
+                }
+            });
+       });
+</script>
+</head>
+
+    <body>
+        <!--Header & Navigation-->
+        <header id="header">
+            <div class="container">
+                <h1>MD DEVELOPMENT</h1>
+                    <nav id="nav">
+                        <span class="nav-btn"></span>
+                        <ul>
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="bio.html">Bio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            
+        </header>
+
+        <!--HeadNav Ends-->
+        
+        <!--Content-->
+        
+        <section id="bio">
+            <div class="pic">
+                <img src="images/10687202_792574998333_2519057440832883204_n.jpg" width="350" height="350" alt="Mike">
+            </div>
+        
+        </section>
+        
+        <article id="description">
+            <p>Hi There!  My name is Michael Dubberke and I'm a Front-End Developer.  Coding has been a passion of mine for some time now, and really lets my imagination run wild.  When I'm not fixing pixels or discovering new ways to improve my skills, I enjoy the company of my friends and family.  I also enjoy new adventures, and pursue them as much as possible.  So now that you know a little bit about me, Let's get building!</p>
+        
+        
+        
+        </article>
+                 
+        
+        </div>
+        <!---Footer---->
+        
+         <div class="footer">
+            <p>MD Development &copy; 2015.  All Rights Reserved</p>
+        
+        </div>
+        <!---end footer--->
+        
+        <script src="js/jquery-1.7.2.min.js"></script>
+    </body>
+</html>

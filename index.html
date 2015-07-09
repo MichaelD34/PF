@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dubberkes Designs">
+<title>| Home |</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+<link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.fancybox-1.3.4.js"></script>
+    <script>
+            $(document).ready(function () {
+                $('.main a').fancybox({
+                    overlayColor: '#CCFF99',
+                    overlayOpacity: .3,
+                    transitionIn: 'elastic',
+                    transitionOut: 'elastic',
+                    easingIn: 'easeInSine',
+                    easingOut: 'easeOutSine',
+                    titlePosition: 'outside',
+                    cyclic: true
+                });
+               
+            $('span.nav-btn').click(function () {
+                $('#nav ul li').toggle();
+            });
+                
+            $(window).resize(function () {
+                if ( $(window).width() > 760 ) {
+                    $('#nav ul li').removeAttr('style');
+                }
+            });
+            
+    }); // end ready
+        </script>
+</head>
+
+    <body>
+        <!--Header & Navigation-->
+        <header id="header">
+            <div class="container">
+                <h1>MD DEVELOPMENT</h1>
+                    <nav id="nav">
+                        <span class="nav-btn"></span>
+                        <ul>
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="bio.html">Bio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+
+        <!--HeadNav Ends-->
+        
+        <!--Main Content Begins-->
+        
+        <section class="main">
+			
+				<ul class="ch-grid">
+                    <a href="images/flyer-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>Art Flyer</h3>
+								<p>by Michael Dubberke </p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+                    <a href="images/port-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Portfolio</h3>
+								<p>by Michael Dubberke</p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+                    <a href="images/jquery-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>JQuery Website</h3>
+								<p>by Michael Dubberke</p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+				</ul>
+				
+			    <ul class="ch-grid">
+                    <a href="images/card-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-4">
+							<div class="ch-info">
+								<h3>Postcard</h3>
+								<p>by Michael Dubberke </p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+                    <a href="images/papas-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-5">
+							<div class="ch-info">
+								<h3>Papa's Pizzera</h3>
+								<p>by Michael Dubberke</p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+                    <a href="images/ad-large.jpg" rel="gallery">
+					   <li>
+						  <div class="ch-item ch-img-6">
+							<div class="ch-info">
+								<h3>Game Ad</h3>
+								<p>by Michael Dubberke</p>
+							</div>
+						  </div>
+					   </li>
+                    </a>
+				</ul>
+				
+			</section>
+        
+        <!--Footer-->
+        
+        <div class="footer">
+            <p>MD Development &copy; 2015.  All Rights Reserved</p>
+        
+        </div>
+        <!--end footer-->
+        
+       
+    </body>
+</html>
